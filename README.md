@@ -38,7 +38,7 @@ sudo tasksel
 
 > select xubuntu-desktop
 
-# Add Pi As User
+### Add Pi As User
 
 ```
 sudo adduser pi
