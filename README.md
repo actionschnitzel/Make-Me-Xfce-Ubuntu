@@ -1,10 +1,10 @@
 # Make-Me-Xfce /// Ubuntu Server ARM64 ///
-   
-### ![Logo](/Screenshot_2021-07-03_00-53-22.png)   
+### This is just an experiment !!!!
+![Logo](/Screenshot_2021-07-03_00-54-48.png)   
 
 
 
-### So for 4 months I tried to make a stable Ubuntu based system without Gnome and finaly it worked.     
+### For 4 months I tried to make a stable Ubuntu based system without Gnome and finaly it worked.     
 ### Read a lot nothing was convincing... But Now it's stabel    
 
 >https://github.com/novaspirit/rpi_ubu64_desktop
