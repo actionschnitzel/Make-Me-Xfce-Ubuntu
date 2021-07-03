@@ -108,6 +108,22 @@ sudo apt update
 
 sudo apt install libc6:armhf  libx11-6:armhf  libgdk-pixbuf2.0-0:armhf libgtk2.0-0:armhf libstdc++6:armhf libsdl2-2.0-0:armhf mesa-va-drivers:armhf libsdl1.2-dev:armhf libsdl-mixer1.2:armhf libpng16-16:armhf libcal3d12v5:armhf libsdl2-net-2.0-0:armhf libopenal1:armhf libsdl2-image-2.0-0:armhf libvorbis-dev:armhf libcurl4:armhf osspd:armhf pulseaudio:armhf libjpeg62:armhf libudev1:armhf libgl1-mesa-dev:armhf libsnappy1v5:armhf libx11-dev:armhf libsmpeg0:armhf libboost-filesystem1.67.0:armhf libboost-program-options1.67.0:armhf libavcodec58:armhf libavformat58:armhf libswscale5:armhf libmyguiengine3debian1v5:armhf libboost-iostreams1.67.0:armhf  libsdl2-mixer-2.0-0:armhf
 ```
+
+### Box64
+```
+sudo systemctl restart systemd-binfmt
+
+https://github.com/ptitSeb/box64/blob/main/COMPILE.md
+
+sudo apt  install cmake
+sudo apt install make
+git clone https://github.com/ptitSeb/box64
+cd box64
+mkdir build; cd build; cmake .. -DRPI4ARM64=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo
+make -j4
+sudo make install
+```
+
 ```
 sudo apt update
 
@@ -137,3 +153,10 @@ sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 sudo apt install lutris
 ```
+###  Enable/Disable Unattended Upgrades in Ubuntu
+>https://linuxhint.com/enable-disable-unattended-upgrades-ubuntu/#:~:text=In%20case%20you%20don't,%2DPackage%2DLists%20to%200.&text=After%20executing%20the%20command%2C%20change%20the%20select%20No%20and%20press,button%20to%20disable%20unattended%20upgrades.&text=This%20command%20will%20not%20harm,features%20of%20your%20Ubuntu%20system.
+    
+```
+sudo dpkg-reconfigure unattended-upgrades
+```
+
