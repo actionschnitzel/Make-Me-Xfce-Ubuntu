@@ -124,6 +124,7 @@ sudo apt install libc6:armhf  libx11-6:armhf  libgdk-pixbuf2.0-0:armhf libgtk2.0
 ```
 
 ### Box64
+>https://github.com/ptitSeb/box64/blob/main/COMPILE.md
 ```
 sudo systemctl restart systemd-binfmt
 
