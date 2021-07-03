@@ -13,6 +13,8 @@
 
 >https://linuxconfig.org/install-xfce-xubuntu-desktop-on-ubuntu-20-04-focal-fossa-linux
 
+>https://itai-nelken.github.io/Ubuntu-on-rpi-fixes/
+
 ### Clock Settings
 /boot/firmware/config.txt
 
