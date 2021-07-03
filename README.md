@@ -1,4 +1,4 @@
-# PiGro-Xf OS /// Ubuntu Server + Xfce + Box86 + Lutris + Bug-Steam xD/// Raspberry Pi 4
+# PiGro OS /// Ubuntu Server + Xfce + Box86 + Lutris + Bug-Steam xD/// Raspberry Pi 4
 ### This is just an experiment with a lot trial and error!!!!
 ![Logo](Screenshot_2021-07-03_00-54-22.png)   
 
