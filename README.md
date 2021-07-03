@@ -12,7 +12,7 @@
 >https://linuxconfig.org/install-xfce-xubuntu-desktop-on-ubuntu-20-04-focal-fossa-linux    
 >https://itai-nelken.github.io/Ubuntu-on-rpi-fixes/    
 >https://github.com/Botspot/pi-apps    
-
+>https://github.com/ptitSeb/box64
 
 # Instructions
 
